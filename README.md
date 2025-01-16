@@ -1,4 +1,4 @@
-# Desafios POO - Basico
+# Desafios POO
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://git.gft.com/knou/desafios-poo-basico.git
+git remote add origin https://git.gft.com/knou/desafios-poo.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://git.gft.com/knou/desafios-poo-basico/-/settings/integrations)
+- [ ] [Set up project integrations](https://git.gft.com/knou/desafios-poo/-/settings/integrations)
 
 ## Collaborate with your team
 
