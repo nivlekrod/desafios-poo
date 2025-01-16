@@ -1,7 +1,9 @@
+package desafio05;
+
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class ShopSystem {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         Cart cart = new Cart();
 

@@ -1,8 +1,9 @@
+package desafio03;
+
 import java.util.Scanner;
 
-public class Main {
-
-    public static void main(String[] args) {
+public class Library {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("How many books do you want to register?");
@@ -50,6 +51,6 @@ public class Main {
             }
         }
 
-        sc.close();
+//        sc.close();
     }
 }

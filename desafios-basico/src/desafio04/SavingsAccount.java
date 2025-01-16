@@ -1,3 +1,5 @@
+package desafio04;
+
 public class SavingsAccount extends Account {
     public SavingsAccount(String holder, double balance) {
         this.holder = holder;

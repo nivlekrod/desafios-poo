@@ -1,7 +1,9 @@
+package desafio02;
+
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class SystemEmployee {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
 
         Employee employee = new Employee();
@@ -24,6 +26,6 @@ public class Main {
 
         System.out.println(manager);
 
-        sc.close();
+//        sc.close();
     }
 }

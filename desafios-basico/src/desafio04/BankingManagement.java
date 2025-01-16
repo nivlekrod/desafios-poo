@@ -1,12 +1,14 @@
+package desafio04;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class BankingManagement {
 
     private static List<Account> accounts = new ArrayList<>();
 
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
 
         accounts.add(new CurrentAccount("Kelvin", 1600, 1000));
@@ -15,7 +17,7 @@ public class Main {
 
         commandList(sc);
 
-        sc.close();
+//        sc.close();
     }
 
     public static void commandList(Scanner sc) {

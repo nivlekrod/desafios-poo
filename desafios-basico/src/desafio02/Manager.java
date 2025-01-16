@@ -1,3 +1,5 @@
+package desafio02;
+
 public class Manager extends Employee {
     private double salaryBonus;
 

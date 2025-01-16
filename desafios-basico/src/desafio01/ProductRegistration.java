@@ -1,7 +1,9 @@
+package desafio01;
+
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class ProductRegistration {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("How many products do you want to register?");
@@ -66,6 +68,6 @@ public class Main {
             }
         }
 
-        sc.close();
+//        sc.close();
     }
 }
