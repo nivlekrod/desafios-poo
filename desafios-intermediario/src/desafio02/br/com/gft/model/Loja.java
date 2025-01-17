@@ -38,12 +38,12 @@ public class Loja {
         double total = 0;
         if (livros != null) {
             for (Livro livro : livros) {
-                total += (livro.getPreco() + livro.calculaImposto(false)) * livro.getQtd();
+                total += (livro.getPreco() + livro.calculaImposto()) * livro.getQtd();
             }
         }
         if (videoGames != null) {
             for (VideoGame videoGame : videoGames) {
-                total += (videoGame.getPreco() + videoGame.calculaImposto(false)) * videoGame.getQtd();
+                total += (videoGame.getPreco() + videoGame.calculaImposto()) * videoGame.getQtd();
             }
         }
 
