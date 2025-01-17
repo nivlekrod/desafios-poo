@@ -44,29 +44,13 @@ public class Livro extends Produto implements Imposto {
     @Override
     public double calculaImposto() {
         if (getTema().equalsIgnoreCase("educativo")) {
+            System.out.printf("Livro Educativo não tem imposto: %s\n", getNome());
             return 0;
         } else {
-            double imposto = 0.01;
-            return getPreco() * imposto;
+            System.out.printf("Aplicado R$%.2f no Livro %s%n", (getPreco() * 0.1), getNome());
+            return getPreco() * 0.1;
         }
     }
-
-    public double calculaImposto(boolean printar) {
-        double precoImposto = 0;
-        if (getTema().equalsIgnoreCase("educativo")) {
-            if (printar) {
-                System.out.println("Livro Educativo não tem imposto: " + getNome());
-            }
-        } else {
-            precoImposto = getPreco() * 0.1;
-            if (printar) {
-                System.out.println("Aplicado R$" + precoImposto + " no Livro " + getNome());
-            }
-        }
-
-        return precoImposto;
-    }
-
 
     public void exibirInfo() {
         System.out.println("Tema: " + getTema());
