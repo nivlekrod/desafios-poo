@@ -34,6 +34,22 @@ public class Loja {
         this.cnpj = cnpj;
     }
 
+    public List<Livro> getLivros() {
+        return livros;
+    }
+
+    public void setLivros(List<Livro> livros) {
+        this.livros = livros;
+    }
+
+    public List<VideoGame> getVideoGames() {
+        return videoGames;
+    }
+
+    public void setVideoGames(List<VideoGame> videoGames) {
+        this.videoGames = videoGames;
+    }
+
     public double calculaPatrimonio() {
         double total = 0;
         if (livros != null) {
