@@ -3,7 +3,7 @@ package desafio01;
 import java.util.Scanner;
 
 public class Carro {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
 
         Veiculo veiculo = new Veiculo("Honda", "Civic", "SKS1A24", "Azul", 25000, 135000);

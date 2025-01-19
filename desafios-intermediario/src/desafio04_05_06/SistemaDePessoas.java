@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SistemaDePessoas {
-    public static void main(String[] args) {
+    public static void main() {
         List<Pessoa> pessoas = new ArrayList<>();
 
         pessoas.add(new Pessoa("João", 15));

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Sistema {
 
-    public static void main(String[] args) {
+    public static void main() {
         List<String> magiasElementais = new ArrayList<>();
         magiasElementais.add("Bola de Fogo");
         magiasElementais.add("Raio do Trovão");
